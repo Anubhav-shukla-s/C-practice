@@ -34,7 +34,7 @@ int main()
 	printf("Your answer of Division is %d\n",f);
 	}
 	
-	else if (a==4);
+	else if (a==4)
 	{ printf("You chose Subtraction\n");
 	g=c-b;
 	

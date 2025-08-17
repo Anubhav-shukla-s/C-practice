@@ -41,6 +41,5 @@ int main()
 	printf("Your answer of Subtraction is %d\n",g);
 	}
 	
-	
 	return 0;
 }

@@ -42,4 +42,5 @@ int main()
     
     printf("\n%d", sum);
     printf("\n%d", nsum);
+
 }

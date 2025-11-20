@@ -1,9 +1,27 @@
 #include<stdio.h>
 int main()
 {
-    int a[2][2]={{2,3},{4,1}};
-    int b[2][2]={{1,5},{3,2}};
+    int a[2][2];
+    int b[2][2];
     int c[2][2];
+    printf("Input for the first matrix : ");
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            scanf("%d",&a[i][j]);
+        }
+        
+    }
+    printf("Input for the second matrix : ");
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            scanf("%d",&b[i][j]);
+        }
+        
+    }
 
     for (int i = 0; i < 2; i++)
     {
@@ -24,3 +42,5 @@ int main()
     }
     return 0;
 }
+
+
